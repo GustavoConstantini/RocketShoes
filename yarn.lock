@@ -11262,6 +11262,17 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^3.9.0":
+  version: 3.9.0
+  resolution: "react-icons@npm:3.9.0"
+  dependencies:
+    camelcase: ^5.0.0
+  peerDependencies:
+    react: "*"
+  checksum: 14011aa39a6c20f5459c97a6b1b737932ccaec1044147380cdaaaa6dbcb855c6c08e5d7d0a8a06618ffd1d55d49cc75caf4a5c745dd48441ea3bb9b3f96e7377
+  languageName: node
+  linkType: hard
+
 "react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1, react-is@npm:^16.8.4":
   version: 16.12.0
   resolution: "react-is@npm:16.12.0"
@@ -11393,6 +11404,7 @@ fsevents@^1.2.7:
     prettier: ^1.19.1
     react: ^16.12.0
     react-dom: ^16.12.0
+    react-icons: ^3.9.0
     react-router-dom: ^5.1.2
     react-scripts: 3.3.1
     styled-components: ^5.0.1

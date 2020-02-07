@@ -67,5 +67,3 @@ export const ProductList = styled.ul`
       }
   }
 `;
-
-const jaja = styled.sv

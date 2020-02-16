@@ -1,13 +1,14 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-import { MdShoppingBasket } from 'react-icons/md'
+import { MdShoppingBasket } from 'react-icons/md';
 import { Container, Cart } from './styles';
 
 import logo from '../../assets/images/logo.svg';
 
-function Herader({ cartSize }) {
+function Header({ cartSize }) {
   return (
     <Container>
       <Link to="/">
@@ -25,6 +26,12 @@ function Herader({ cartSize }) {
   );
 }
 
-export default connect(state => ({
+const mapStateToProps = state => ({
   cartSize: state.cart.length,
-}))(Herader);
+});
+
+Header.propTypes = {
+  cartSize: PropTypes.number.isRequired,
+};
+
+export default connect(mapStateToProps)(Header);

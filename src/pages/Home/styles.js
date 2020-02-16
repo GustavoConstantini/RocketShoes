@@ -55,7 +55,6 @@ export const ProductList = styled.ul`
 
           svg {
             margin-right: 5px;
-
           }
         }
 

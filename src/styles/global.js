@@ -1,9 +1,8 @@
-import { createGlobalStyle, } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
   * {
     margin: 0;
     padding: 0;
@@ -16,7 +15,7 @@ export default createGlobalStyle`
     }
 
     body, input, button {
-      font: 14px Roboto, sans-serif;
+      font: 14px sans-serif;
     }
 
     #root {

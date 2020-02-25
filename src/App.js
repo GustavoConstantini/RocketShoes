@@ -8,7 +8,7 @@ import GlobalStyle from './styles/global';
 import Header from './components/Herader';
 import Routes from './routes';
 
-import store from '../src/store';
+import store from './store';
 
 function App() {
   return (

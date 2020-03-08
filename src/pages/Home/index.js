@@ -72,7 +72,7 @@ const mapDispatchToProps = dispatch =>
 
 Home.propTypes = {
   addToCartRequest: PropTypes.func.isRequired,
-  amount: PropTypes.number.isRequired,
+  amount: PropTypes.object.isRequired,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home);

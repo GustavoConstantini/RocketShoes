@@ -102,7 +102,7 @@ Cart.propTypes = {
   cart: PropTypes.arrayOf(PropTypes.object).isRequired,
   removeFromCart: PropTypes.func.isRequired,
   updateAmount: PropTypes.func.isRequired,
-  total: PropTypes.number.isRequired,
+  total: PropTypes.string.isRequired,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);
